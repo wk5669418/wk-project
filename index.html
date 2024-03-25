@@ -16,13 +16,14 @@
 <body>
     <h1>My profile</h1>
     <img src="./waseem.jpg" alt="" width="200" title="Waseem khan">
-    
+   <div>
+    <h2 style="margin-left: 40px;font-size: 30px;">Hello</h2>
+    <h2 style="color: rgba(211,98,0.822);margin-left: 70px;font-size: 30px;">I'm Muhammad Waseem <img src="./speaker.jpg" alt="speaker Icon" width="50px"></h2>
+   </div>
     <br> <br>
     <a href="../wk-project/Skills.html">Skills</a>
     <a href="../wk-project/Project.html">Project</a>
     <a href="../wk-project/Contact-US.html">Contact-Us</a>
-    <h1>Muhammad WASEEM KHAN</h1>
-    <h2>FROM KOHAT</h2>
     <h2>MY Education</h2>
     <table style="width: 50%;">
         <thead>
@@ -46,5 +47,12 @@
            
         </tbody>
     </table>
+    <script>
+        var audio = new Audio("./speech.wav");
+        function playAudio(){
+            audio.play();
+        }
+        document.getElementById("speaker").addEventListener("click",playAudio);
+    </script>
 </body>
 </html>
