@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <style>
-        table, th, td {
-          border:1px solid black;
-        }
-        thead{
-           background-color: antiquewhite ;
-        }
-        </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../wk-project/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../wk-project/Skills.html">Skills</a></li>
+        <li>
+          <a href="../wk-project/Project.html">Project</a>
+        </li>
+        <li><a href="../wk-project/Contact-US.html">Contact-Us</a></li>
+      </ul>
+    </nav>
     <h1>My profile</h1>
-    <img src="./waseem.jpg" alt="" width="200" title="Waseem khan">
-   <div>
-    <h2 style="margin-left: 40px;font-size: 30px;">Hello</h2>
-    <h2 style="color: rgba(211,98,0.822);margin-left: 70px;font-size: 30px;">I'm Muhammad Waseem <img src="./speaker.jpg" alt="speaker Icon" width="50px"></h2>
-   </div>
-    <br> <br>
-    <a href="../wk-project/Skills.html">Skills</a>
-    <a href="../wk-project/Project.html">Project</a>
-    <a href="../wk-project/Contact-US.html">Contact-Us</a>
+    <img src="./waseem.jpg" alt="" width="200" title="Waseem khan" />
+    <div>
+      <h2 style="margin-left: 40px; font-size: 30px">Hello</h2>
+      <h2
+        style="color: rgba(211, 98, 0.822); margin-left: 70px; font-size: 30px"
+      >
+        I'm Muhammad Waseem
+        <img src="./speaker.jpg" alt="speaker Icon" width="50px" />
+      </h2>
+    </div>
+    <br />
+    <br />
+
     <h2>MY Education</h2>
-    <table style="width: 50%;">
-        <thead>
-            <tr>
-                <th>Education</th>
-                <th>Year</th>
-                <th>Grade</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>SSC</td>
-                <td>2019</td>
-                <td>B</td>
-            </tr>
-            <tr>
-                <td>HSSC</td>
-                <td>2021</td>
-                <td>A</td>
-            </tr>
-           
-        </tbody>
+    <table style="width: 50%">
+      <thead>
+        <tr>
+          <th>Education</th>
+          <th>Year</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SSC</td>
+          <td>2019</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>HSSC</td>
+          <td>2021</td>
+          <td>A</td>
+        </tr>
+      </tbody>
     </table>
     <script>
-        var audio = new Audio("./speech.wav");
-        function playAudio(){
-            audio.play();
-        }
-        document.getElementById("speaker").addEventListener("click",playAudio);
+      var audio = new Audio("./speech.wav");
+      function playAudio() {
+        audio.play();
+      }
+      document.getElementById("speaker").addEventListener("click", playAudio);
     </script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+thead {
+  background-color: antiquewhite;
+}
+
+nav ul li {
+  display: inline;
+}
+nav ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+  /* justify-content: space-around; */
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  color: aqua;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #4CAF50;
+  color: white;
+}
